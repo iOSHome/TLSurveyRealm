@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170A05439DE2879B738F0656 /* Pods_TLSurveyRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF6CD224B44D28B3D37EC3 /* Pods_TLSurveyRealm.framework */; };
+		7E17306D1FAF397D009ADBDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E17306C1FAF397D009ADBDE /* AppDelegate.m */; };
+		7E1730751FAF397D009ADBDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1730741FAF397D009ADBDE /* Assets.xcassets */; };
+		7E1730781FAF397D009ADBDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1730761FAF397D009ADBDE /* LaunchScreen.storyboard */; };
+		7E17307B1FAF397D009ADBDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E17307A1FAF397D009ADBDE /* main.m */; };
+		7E1730851FAF397D009ADBDE /* TLSurveyRealmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1730841FAF397D009ADBDE /* TLSurveyRealmTests.m */; };
+		7E1730901FAF397D009ADBDE /* TLSurveyRealmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E17308F1FAF397D009ADBDE /* TLSurveyRealmUITests.m */; };
+		7E1730C61FAF3CDE009ADBDE /* TLAdvancedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1730A51FAF3CDD009ADBDE /* TLAdvancedViewController.m */; };
+		7E1730C71FAF3CDE009ADBDE /* TLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1730A81FAF3CDD009ADBDE /* TLNavigationController.m */; };
+		7E1730C91FAF3CDE009ADBDE /* TLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1730AF1FAF3CDD009ADBDE /* TLHomeViewController.m */; };
+		7E1730CC1FAF3CDE009ADBDE /* TLProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1730B71FAF3CDD009ADBDE /* TLProfileViewController.m */; };
+		7E1730CD1FAF3CDE009ADBDE /* NSDate+TLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1730BB1FAF3CDD009ADBDE /* NSDate+TLExtension.m */; };
+		7E1730CE1FAF3CDE009ADBDE /* NSDateFormatter+TLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1730BD1FAF3CDD009ADBDE /* NSDateFormatter+TLExtension.m */; };
+		7E1730CF1FAF3CDE009ADBDE /* NSObject+TLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1730BF1FAF3CDD009ADBDE /* NSObject+TLExtension.m */; };
+		7E1730D01FAF3CDE009ADBDE /* UIBarButtonItem+TLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1730C11FAF3CDD009ADBDE /* UIBarButtonItem+TLExtension.m */; };
+		7E1730D11FAF3CDE009ADBDE /* UIImage+TLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1730C31FAF3CDD009ADBDE /* UIImage+TLExtension.m */; };
+		7E1730D21FAF3CDE009ADBDE /* UIView+TLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1730C51FAF3CDD009ADBDE /* UIView+TLExtension.m */; };
+		7E1730D61FAF3FB3009ADBDE /* TLTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1730D51FAF3FB3009ADBDE /* TLTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E1730811FAF397D009ADBDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E1730601FAF397D009ADBDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E1730671FAF397D009ADBDE;
+			remoteInfo = TLSurveyRealm;
+		};
+		7E17308C1FAF397D009ADBDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E1730601FAF397D009ADBDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E1730671FAF397D009ADBDE;
+			remoteInfo = TLSurveyRealm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		302518E3738283B184E58CF2 /* Pods-TLSurveyRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLSurveyRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLSurveyRealm/Pods-TLSurveyRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		7E1730681FAF397D009ADBDE /* TLSurveyRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLSurveyRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E17306B1FAF397D009ADBDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E17306C1FAF397D009ADBDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E1730741FAF397D009ADBDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E1730771FAF397D009ADBDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E1730791FAF397D009ADBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E17307A1FAF397D009ADBDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E1730801FAF397D009ADBDE /* TLSurveyRealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLSurveyRealmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1730841FAF397D009ADBDE /* TLSurveyRealmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLSurveyRealmTests.m; sourceTree = "<group>"; };
+		7E1730861FAF397D009ADBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E17308B1FAF397D009ADBDE /* TLSurveyRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLSurveyRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E17308F1FAF397D009ADBDE /* TLSurveyRealmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLSurveyRealmUITests.m; sourceTree = "<group>"; };
+		7E1730911FAF397D009ADBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E17309E1FAF3CDD009ADBDE /* TLConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLConst.h; sourceTree = "<group>"; };
+		7E17309F1FAF3CDD009ADBDE /* TLHeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLHeaderFile.h; sourceTree = "<group>"; };
+		7E1730A01FAF3CDD009ADBDE /* TLMacroTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMacroTool.h; sourceTree = "<group>"; };
+		7E1730A11FAF3CDD009ADBDE /* TLSurveyRealm-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TLSurveyRealm-Prefix.pch"; sourceTree = "<group>"; };
+		7E1730A41FAF3CDD009ADBDE /* TLAdvancedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLAdvancedViewController.h; sourceTree = "<group>"; };
+		7E1730A51FAF3CDD009ADBDE /* TLAdvancedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLAdvancedViewController.m; sourceTree = "<group>"; };
+		7E1730A71FAF3CDD009ADBDE /* TLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLNavigationController.h; sourceTree = "<group>"; };
+		7E1730A81FAF3CDD009ADBDE /* TLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLNavigationController.m; sourceTree = "<group>"; };
+		7E1730AE1FAF3CDD009ADBDE /* TLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLHomeViewController.h; sourceTree = "<group>"; };
+		7E1730AF1FAF3CDD009ADBDE /* TLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLHomeViewController.m; sourceTree = "<group>"; };
+		7E1730B61FAF3CDD009ADBDE /* TLProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLProfileViewController.h; sourceTree = "<group>"; };
+		7E1730B71FAF3CDD009ADBDE /* TLProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLProfileViewController.m; sourceTree = "<group>"; };
+		7E1730BA1FAF3CDD009ADBDE /* NSDate+TLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TLExtension.h"; sourceTree = "<group>"; };
+		7E1730BB1FAF3CDD009ADBDE /* NSDate+TLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TLExtension.m"; sourceTree = "<group>"; };
+		7E1730BC1FAF3CDD009ADBDE /* NSDateFormatter+TLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+TLExtension.h"; sourceTree = "<group>"; };
+		7E1730BD1FAF3CDD009ADBDE /* NSDateFormatter+TLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+TLExtension.m"; sourceTree = "<group>"; };
+		7E1730BE1FAF3CDD009ADBDE /* NSObject+TLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TLExtension.h"; sourceTree = "<group>"; };
+		7E1730BF1FAF3CDD009ADBDE /* NSObject+TLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TLExtension.m"; sourceTree = "<group>"; };
+		7E1730C01FAF3CDD009ADBDE /* UIBarButtonItem+TLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TLExtension.h"; sourceTree = "<group>"; };
+		7E1730C11FAF3CDD009ADBDE /* UIBarButtonItem+TLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TLExtension.m"; sourceTree = "<group>"; };
+		7E1730C21FAF3CDD009ADBDE /* UIImage+TLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TLExtension.h"; sourceTree = "<group>"; };
+		7E1730C31FAF3CDD009ADBDE /* UIImage+TLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TLExtension.m"; sourceTree = "<group>"; };
+		7E1730C41FAF3CDD009ADBDE /* UIView+TLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TLExtension.h"; sourceTree = "<group>"; };
+		7E1730C51FAF3CDD009ADBDE /* UIView+TLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TLExtension.m"; sourceTree = "<group>"; };
+		7E1730D41FAF3FB3009ADBDE /* TLTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTestViewController.h; sourceTree = "<group>"; };
+		7E1730D51FAF3FB3009ADBDE /* TLTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTestViewController.m; sourceTree = "<group>"; };
+		E067FD8121CC17A594BB0A8C /* Pods-TLSurveyRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLSurveyRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLSurveyRealm/Pods-TLSurveyRealm.release.xcconfig"; sourceTree = "<group>"; };
+		EBDF6CD224B44D28B3D37EC3 /* Pods_TLSurveyRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLSurveyRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E1730651FAF397D009ADBDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170A05439DE2879B738F0656 /* Pods_TLSurveyRealm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E17307D1FAF397D009ADBDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1730881FAF397D009ADBDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4583F3084EEEF8DDA681285F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBDF6CD224B44D28B3D37EC3 /* Pods_TLSurveyRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E17305F1FAF397D009ADBDE = {
+			isa = PBXGroup;
+			children = (
+				7E17306A1FAF397D009ADBDE /* TLSurveyRealm */,
+				7E1730831FAF397D009ADBDE /* TLSurveyRealmTests */,
+				7E17308E1FAF397D009ADBDE /* TLSurveyRealmUITests */,
+				7E1730691FAF397D009ADBDE /* Products */,
+				89348DFF4B6C886FD5F75BAE /* Pods */,
+				4583F3084EEEF8DDA681285F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1730691FAF397D009ADBDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E1730681FAF397D009ADBDE /* TLSurveyRealm.app */,
+				7E1730801FAF397D009ADBDE /* TLSurveyRealmTests.xctest */,
+				7E17308B1FAF397D009ADBDE /* TLSurveyRealmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E17306A1FAF397D009ADBDE /* TLSurveyRealm */ = {
+			isa = PBXGroup;
+			children = (
+				7E1730B81FAF3CDD009ADBDE /* Application */,
+				7E1730A21FAF3CDD009ADBDE /* Modules */,
+				7E1730B91FAF3CDD009ADBDE /* TLCategory */,
+				7E17309D1FAF3CDD009ADBDE /* TLPrefix */,
+			);
+			path = TLSurveyRealm;
+			sourceTree = "<group>";
+		};
+		7E1730831FAF397D009ADBDE /* TLSurveyRealmTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E1730841FAF397D009ADBDE /* TLSurveyRealmTests.m */,
+				7E1730861FAF397D009ADBDE /* Info.plist */,
+			);
+			path = TLSurveyRealmTests;
+			sourceTree = "<group>";
+		};
+		7E17308E1FAF397D009ADBDE /* TLSurveyRealmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E17308F1FAF397D009ADBDE /* TLSurveyRealmUITests.m */,
+				7E1730911FAF397D009ADBDE /* Info.plist */,
+			);
+			path = TLSurveyRealmUITests;
+			sourceTree = "<group>";
+		};
+		7E17309D1FAF3CDD009ADBDE /* TLPrefix */ = {
+			isa = PBXGroup;
+			children = (
+				7E17309E1FAF3CDD009ADBDE /* TLConst.h */,
+				7E17309F1FAF3CDD009ADBDE /* TLHeaderFile.h */,
+				7E1730A01FAF3CDD009ADBDE /* TLMacroTool.h */,
+				7E1730A11FAF3CDD009ADBDE /* TLSurveyRealm-Prefix.pch */,
+			);
+			path = TLPrefix;
+			sourceTree = "<group>";
+		};
+		7E1730A21FAF3CDD009ADBDE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7E1730D31FAF3FB3009ADBDE /* Test */,
+				7E1730A31FAF3CDD009ADBDE /* Advanced */,
+				7E1730A61FAF3CDD009ADBDE /* Base */,
+				7E1730AC1FAF3CDD009ADBDE /* Home */,
+				7E1730B51FAF3CDD009ADBDE /* Profile */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7E1730A31FAF3CDD009ADBDE /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				7E1730A41FAF3CDD009ADBDE /* TLAdvancedViewController.h */,
+				7E1730A51FAF3CDD009ADBDE /* TLAdvancedViewController.m */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
+		7E1730A61FAF3CDD009ADBDE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7E1730A71FAF3CDD009ADBDE /* TLNavigationController.h */,
+				7E1730A81FAF3CDD009ADBDE /* TLNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7E1730AC1FAF3CDD009ADBDE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7E1730AD1FAF3CDD009ADBDE /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7E1730AD1FAF3CDD009ADBDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E1730AE1FAF3CDD009ADBDE /* TLHomeViewController.h */,
+				7E1730AF1FAF3CDD009ADBDE /* TLHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E1730B51FAF3CDD009ADBDE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7E1730B61FAF3CDD009ADBDE /* TLProfileViewController.h */,
+				7E1730B71FAF3CDD009ADBDE /* TLProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7E1730B81FAF3CDD009ADBDE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7E17306B1FAF397D009ADBDE /* AppDelegate.h */,
+				7E17306C1FAF397D009ADBDE /* AppDelegate.m */,
+				7E1730741FAF397D009ADBDE /* Assets.xcassets */,
+				7E1730761FAF397D009ADBDE /* LaunchScreen.storyboard */,
+				7E1730791FAF397D009ADBDE /* Info.plist */,
+				7E17307A1FAF397D009ADBDE /* main.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7E1730B91FAF3CDD009ADBDE /* TLCategory */ = {
+			isa = PBXGroup;
+			children = (
+				7E1730BA1FAF3CDD009ADBDE /* NSDate+TLExtension.h */,
+				7E1730BB1FAF3CDD009ADBDE /* NSDate+TLExtension.m */,
+				7E1730BC1FAF3CDD009ADBDE /* NSDateFormatter+TLExtension.h */,
+				7E1730BD1FAF3CDD009ADBDE /* NSDateFormatter+TLExtension.m */,
+				7E1730BE1FAF3CDD009ADBDE /* NSObject+TLExtension.h */,
+				7E1730BF1FAF3CDD009ADBDE /* NSObject+TLExtension.m */,
+				7E1730C01FAF3CDD009ADBDE /* UIBarButtonItem+TLExtension.h */,
+				7E1730C11FAF3CDD009ADBDE /* UIBarButtonItem+TLExtension.m */,
+				7E1730C21FAF3CDD009ADBDE /* UIImage+TLExtension.h */,
+				7E1730C31FAF3CDD009ADBDE /* UIImage+TLExtension.m */,
+				7E1730C41FAF3CDD009ADBDE /* UIView+TLExtension.h */,
+				7E1730C51FAF3CDD009ADBDE /* UIView+TLExtension.m */,
+			);
+			path = TLCategory;
+			sourceTree = "<group>";
+		};
+		7E1730D31FAF3FB3009ADBDE /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				7E1730D41FAF3FB3009ADBDE /* TLTestViewController.h */,
+				7E1730D51FAF3FB3009ADBDE /* TLTestViewController.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		89348DFF4B6C886FD5F75BAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				302518E3738283B184E58CF2 /* Pods-TLSurveyRealm.debug.xcconfig */,
+				E067FD8121CC17A594BB0A8C /* Pods-TLSurveyRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E1730671FAF397D009ADBDE /* TLSurveyRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1730941FAF397D009ADBDE /* Build configuration list for PBXNativeTarget "TLSurveyRealm" */;
+			buildPhases = (
+				BA007B9592CC75B5DF22B9BE /* [CP] Check Pods Manifest.lock */,
+				7E1730641FAF397D009ADBDE /* Sources */,
+				7E1730651FAF397D009ADBDE /* Frameworks */,
+				7E1730661FAF397D009ADBDE /* Resources */,
+				93B34807572955B5A2AFA12D /* [CP] Embed Pods Frameworks */,
+				78FDFAA43E7C277FA248C3D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLSurveyRealm;
+			productName = TLSurveyRealm;
+			productReference = 7E1730681FAF397D009ADBDE /* TLSurveyRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E17307F1FAF397D009ADBDE /* TLSurveyRealmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1730971FAF397D009ADBDE /* Build configuration list for PBXNativeTarget "TLSurveyRealmTests" */;
+			buildPhases = (
+				7E17307C1FAF397D009ADBDE /* Sources */,
+				7E17307D1FAF397D009ADBDE /* Frameworks */,
+				7E17307E1FAF397D009ADBDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E1730821FAF397D009ADBDE /* PBXTargetDependency */,
+			);
+			name = TLSurveyRealmTests;
+			productName = TLSurveyRealmTests;
+			productReference = 7E1730801FAF397D009ADBDE /* TLSurveyRealmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E17308A1FAF397D009ADBDE /* TLSurveyRealmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E17309A1FAF397D009ADBDE /* Build configuration list for PBXNativeTarget "TLSurveyRealmUITests" */;
+			buildPhases = (
+				7E1730871FAF397D009ADBDE /* Sources */,
+				7E1730881FAF397D009ADBDE /* Frameworks */,
+				7E1730891FAF397D009ADBDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E17308D1FAF397D009ADBDE /* PBXTargetDependency */,
+			);
+			name = TLSurveyRealmUITests;
+			productName = TLSurveyRealmUITests;
+			productReference = 7E17308B1FAF397D009ADBDE /* TLSurveyRealmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E1730601FAF397D009ADBDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lichuanjun;
+				TargetAttributes = {
+					7E1730671FAF397D009ADBDE = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					7E17307F1FAF397D009ADBDE = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E1730671FAF397D009ADBDE;
+					};
+					7E17308A1FAF397D009ADBDE = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E1730671FAF397D009ADBDE;
+					};
+				};
+			};
+			buildConfigurationList = 7E1730631FAF397D009ADBDE /* Build configuration list for PBXProject "TLSurveyRealm" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E17305F1FAF397D009ADBDE;
+			productRefGroup = 7E1730691FAF397D009ADBDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E1730671FAF397D009ADBDE /* TLSurveyRealm */,
+				7E17307F1FAF397D009ADBDE /* TLSurveyRealmTests */,
+				7E17308A1FAF397D009ADBDE /* TLSurveyRealmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E1730661FAF397D009ADBDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1730781FAF397D009ADBDE /* LaunchScreen.storyboard in Resources */,
+				7E1730751FAF397D009ADBDE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E17307E1FAF397D009ADBDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1730891FAF397D009ADBDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78FDFAA43E7C277FA248C3D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLSurveyRealm/Pods-TLSurveyRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B34807572955B5A2AFA12D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TLSurveyRealm/Pods-TLSurveyRealm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLSurveyRealm/Pods-TLSurveyRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA007B9592CC75B5DF22B9BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TLSurveyRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E1730641FAF397D009ADBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1730D21FAF3CDE009ADBDE /* UIView+TLExtension.m in Sources */,
+				7E1730CD1FAF3CDE009ADBDE /* NSDate+TLExtension.m in Sources */,
+				7E1730CF1FAF3CDE009ADBDE /* NSObject+TLExtension.m in Sources */,
+				7E1730CE1FAF3CDE009ADBDE /* NSDateFormatter+TLExtension.m in Sources */,
+				7E1730CC1FAF3CDE009ADBDE /* TLProfileViewController.m in Sources */,
+				7E1730D11FAF3CDE009ADBDE /* UIImage+TLExtension.m in Sources */,
+				7E1730C71FAF3CDE009ADBDE /* TLNavigationController.m in Sources */,
+				7E17307B1FAF397D009ADBDE /* main.m in Sources */,
+				7E1730C91FAF3CDE009ADBDE /* TLHomeViewController.m in Sources */,
+				7E1730D01FAF3CDE009ADBDE /* UIBarButtonItem+TLExtension.m in Sources */,
+				7E1730D61FAF3FB3009ADBDE /* TLTestViewController.m in Sources */,
+				7E1730C61FAF3CDE009ADBDE /* TLAdvancedViewController.m in Sources */,
+				7E17306D1FAF397D009ADBDE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E17307C1FAF397D009ADBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1730851FAF397D009ADBDE /* TLSurveyRealmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1730871FAF397D009ADBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1730901FAF397D009ADBDE /* TLSurveyRealmUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E1730821FAF397D009ADBDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E1730671FAF397D009ADBDE /* TLSurveyRealm */;
+			targetProxy = 7E1730811FAF397D009ADBDE /* PBXContainerItemProxy */;
+		};
+		7E17308D1FAF397D009ADBDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E1730671FAF397D009ADBDE /* TLSurveyRealm */;
+			targetProxy = 7E17308C1FAF397D009ADBDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E1730761FAF397D009ADBDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1730771FAF397D009ADBDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E1730921FAF397D009ADBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E1730931FAF397D009ADBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E1730951FAF397D009ADBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302518E3738283B184E58CF2 /* Pods-TLSurveyRealm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TLSurveyRealm/TLPrefix/TLSurveyRealm-Prefix.pch";
+				INFOPLIST_FILE = TLSurveyRealm/Application/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leecj.TLSurveyRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E1730961FAF397D009ADBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E067FD8121CC17A594BB0A8C /* Pods-TLSurveyRealm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TLSurveyRealm/TLPrefix/TLSurveyRealm-Prefix.pch";
+				INFOPLIST_FILE = TLSurveyRealm/Application/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leecj.TLSurveyRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E1730981FAF397D009ADBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TLSurveyRealmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leecj.TLSurveyRealmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLSurveyRealm.app/TLSurveyRealm";
+			};
+			name = Debug;
+		};
+		7E1730991FAF397D009ADBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TLSurveyRealmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leecj.TLSurveyRealmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLSurveyRealm.app/TLSurveyRealm";
+			};
+			name = Release;
+		};
+		7E17309B1FAF397D009ADBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TLSurveyRealmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leecj.TLSurveyRealmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TLSurveyRealm;
+			};
+			name = Debug;
+		};
+		7E17309C1FAF397D009ADBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TLSurveyRealmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leecj.TLSurveyRealmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TLSurveyRealm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E1730631FAF397D009ADBDE /* Build configuration list for PBXProject "TLSurveyRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1730921FAF397D009ADBDE /* Debug */,
+				7E1730931FAF397D009ADBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1730941FAF397D009ADBDE /* Build configuration list for PBXNativeTarget "TLSurveyRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1730951FAF397D009ADBDE /* Debug */,
+				7E1730961FAF397D009ADBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1730971FAF397D009ADBDE /* Build configuration list for PBXNativeTarget "TLSurveyRealmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1730981FAF397D009ADBDE /* Debug */,
+				7E1730991FAF397D009ADBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E17309A1FAF397D009ADBDE /* Build configuration list for PBXNativeTarget "TLSurveyRealmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E17309B1FAF397D009ADBDE /* Debug */,
+				7E17309C1FAF397D009ADBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E1730601FAF397D009ADBDE /* Project object */;
+}
